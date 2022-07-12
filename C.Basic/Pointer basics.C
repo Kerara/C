@@ -6,9 +6,9 @@ int main_pPointer_basics()
 {
 	srand(time(0));
 
-	//Æ÷ÀÎÅÍ(ÁÖ¼Ò)
-	// ÀÚ·áÇü* º¯¼ö¸í ==> Æ÷ÀÎÅÍ º¯¼ö
-	// ÀÚ·áÇüµÚ¿¡*ÀÌ ºÙÀ¸¸é ¹«Á¶°Ç Æ÷ÀÎÅÍ º¯¼ö°¡ µÈ´Ù.
+	//í¬ì¸í„°(ì£¼ì†Œ)
+	// ìë£Œí˜•* ë³€ìˆ˜ëª… ==> í¬ì¸í„° ë³€ìˆ˜
+	// ìë£Œí˜•ë’¤ì—*ì´ ë¶™ìœ¼ë©´ ë¬´ì¡°ê±´ í¬ì¸í„° ë³€ìˆ˜ê°€ ëœë‹¤.
 
 	int* pInt = 0;
 	char* pchar = 0;
@@ -19,7 +19,7 @@ int main_pPointer_basics()
 	pchar = &ch;
 
 	//printf(" pInt = %u, number addr = %u\n", pInt, &number);
-	//printf(" *pInt = %u, number addr = %u\n", *pInt, number); //ÁÖ¼Ò º¯¼ö ¾Õ¿¡*À» ºÎÀÌ¸é ÇØ´ç ÁÖ¼Ò ÀÚÃ¼¸¦ ÀÇ¹ÌÇÑ´Ù.
+	//printf(" *pInt = %u, number addr = %u\n", *pInt, number); //ì£¼ì†Œ ë³€ìˆ˜ ì•ì—*ì„ ë¶™ì´ë©´ í•´ë‹¹ ì£¼ì†Œ ìì²´ë¥¼ ì˜ë¯¸í•œë‹¤.
 	//printf(" pInt add = %u\n", &pInt);
 	// // *pInt == number
 	//*pInt = 33;   //number =33;
@@ -31,7 +31,7 @@ int main_pPointer_basics()
 	/*printf("int size = %u, int point size = %u\n", sizeof(int), sizeof(int*));
 		printf("char size = %u, char point size = %u\n", sizeof(char), sizeof(char*));
 		printf("flaot size = %u, float point size = %u\n", sizeof(float), sizeof(float*));*/
-		//ÁÖ¼Ò º¯¼ö´Â ¸Ş¸ğ¸® ÁÖ¼Ò¸¦ ÀúÀåÇÏµµ·Ï ¸¸µå´Â °ÍÀÌ´Ù.
+		//ì£¼ì†Œ ë³€ìˆ˜ëŠ” ë©”ëª¨ë¦¬ ì£¼ì†Œë¥¼ ì €ì¥í•˜ë„ë¡ ë§Œë“œëŠ” ê²ƒì´ë‹¤.
 
 	system("pause");
 	return 0;
