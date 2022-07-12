@@ -26,7 +26,7 @@ int main_pPointer_basics()
 	//printf(" number = %d\n", number);
 
 	printf("pInt = %u, pInt +1 = %u, pInt +2 = %u", pInt, pInt + 1, pInt + 2);
-	printf("pchar = %u, pchart +1 = %u, pchar +2 = %u", pchar, pchar + 1, pchar + 2);
+	printf("pchar = %u, pchar +1 = %u, pchar +2 = %u", pchar, pchar + 1, pchar + 2);
 
 	/*printf("int size = %u, int point size = %u\n", sizeof(int), sizeof(int*));
 		printf("char size = %u, char point size = %u\n", sizeof(char), sizeof(char*));
