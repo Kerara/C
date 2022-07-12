@@ -29,9 +29,9 @@ int main_pPointer_basics()
 	printf("pchar = %u, pchar +1 = %u, pchar +2 = %u", pchar, pchar + 1, pchar + 2);
 
 	/*printf("int size = %u, int point size = %u\n", sizeof(int), sizeof(int*));
-		printf("char size = %u, char point size = %u\n", sizeof(char), sizeof(char*));
-		printf("flaot size = %u, float point size = %u\n", sizeof(float), sizeof(float*));*/
-		//주소 변수는 메모리 주소를 저장하도록 만드는 것이다.
+	printf("char size = %u, char point size = %u\n", sizeof(char), sizeof(char*));
+	printf("float size = %u, float point size = %u\n", sizeof(float), sizeof(float*));*/
+	//주소 변수는 메모리 주소를 저장하도록 만드는 것이다.
 
 	system("pause");
 	return 0;
