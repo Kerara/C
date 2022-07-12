@@ -2,7 +2,7 @@
 #include <Windows.h>
 #include <time.h>
 
-//¼±¾ğºÎ
+//ì„ ì–¸ë¶€
 void ChangeNumber(int* num);
 void SwapInt(int* num1, int* num2);
 void PrintArrayElements(int* arr, int count);
@@ -11,8 +11,8 @@ int main_Function_Application1()
 {
 	srand(time(0));
 
-	//ÁÖ¼Òº¯¼ö¸¦ ¸Å°³ º¯¼ö·Î »ç¿ëÇÏ´Â ÇÔ¼ö,
-	//¹İÈ¯Çü ÇÔ¼ö¸í (¸Å°³ º¯¼öÀÚ·áÇü* ¸Å°³º¯¼ö¸í...);
+	//ì£¼ì†Œë³€ìˆ˜ë¥¼ ë§¤ê°œ ë³€ìˆ˜ë¡œ ì‚¬ìš©í•˜ëŠ” í•¨ìˆ˜,
+	//ë°˜í™˜í˜• í•¨ìˆ˜ëª… (ë§¤ê°œ ë³€ìˆ˜ìë£Œí˜•* ë§¤ê°œë³€ìˆ˜ëª…...);
 
 	/*int number = 10;
 	printf("number = %d\n", number);
@@ -37,7 +37,7 @@ int main_Function_Application1()
 
 }
 
-//Á¤ÀÇºÎ
+//ì •ì˜ë¶€
 void PrintArrayElements(int* arr, int count)
 {
 	int n = 0;
@@ -59,4 +59,4 @@ void ChangeNumber(int* num)
 	*num = 100;
 	printf(" num = %d\n", *num);
 }
-//¸Å°³ º¯¼öÀÇ ÁÖ¼Öº¯¼ö »ç¿ëÀº º¸Åë ¿ÜºÎÀÇ °ªÀ» Á¦¿ÜÇÏ±â  À§ÇØ¼­ »ç¿ëÇÑ´Ù.
+//ë§¤ê°œ ë³€ìˆ˜ì˜ ì£¼ì†Œë³€ìˆ˜ ì‚¬ìš©ì€ ë³´í†µ ì™¸ë¶€ì˜ ê°’ì„ ì œì™¸í•˜ê¸°  ìœ„í•´ì„œ ì‚¬ìš©í•œë‹¤.
