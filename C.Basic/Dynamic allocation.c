@@ -6,12 +6,12 @@ int main_Dynmic_allocaton()
 {
 	srand(time(0));
 
-	// µ¿ÀûÇÒ´ç ,ÇØÁö
-	// ÇÒ´ç malloc , calloc
-	// ÇØÁö free
-	// »ç¿ë Çü½Ä
-	// ÁÖ¼Ò º¯¼ö = (ÀÚ·áÇü *) malloc(Å©Å°)
-	// ÁÖ¼Ò º¯¼ö = (ÀÚ·áÇü*) callco(°³¼ö , Å©±â)
+	// ë™ì í• ë‹¹ ,í•´ì§€
+	// í• ë‹¹ malloc , calloc
+	// í•´ì§€ free
+	// ì‚¬ìš© í˜•ì‹
+	// ì£¼ì†Œ ë³€ìˆ˜ = (ìžë£Œí˜• *) malloc(í¬í‚¤)
+	// ì£¼ì†Œ ë³€ìˆ˜ = (ìžë£Œí˜•*) calloc(ê°œìˆ˜ , í¬ê¸°)
 	//int num = 10;
 	//int* psu = (int*)malloc(sizeof(int));
 	//*psu = 100;
@@ -33,10 +33,10 @@ int main_Dynmic_allocaton()
 	for (n = 0; n < 4; n++)
 		printf(" psu[%d] = %d\n", n, psu[n]);
 	free(psu);
-	// µ¿Àû ÇÒ´çÀ» Çß´Ù¸é ²À ÇØÁö¸¦ ÇØÁà¾ß ÇÑ´Ù.
-	// ±î¸ÔÁö ¾Ê°Ô ÇÒ´ç°ú ÇØÁö ÄÚµå¸¦ ¸¸µçÈÄ ´Ù¸¥ ÄÚµå¸¦ ¸¸µéÀÚ.
-	// ÀÏ¹ÝÀûÀ¸·Î calloc°ú mallocÀ» ±¸ºÐÇØ¼­ ¾²´Â °æ¿ì º¸´Ù 
-	// mallocÀ¸·Î ÀüÃ¼ Å©±â¸¦ ÇÒ´çÇØ¼­ »ç¿ëÇÏ´Â °æ¿ì°¡ ¸¹´Ù.
+	// ë™ì  í• ë‹¹ì„ í–ˆë‹¤ë©´ ê¼­ í•´ì§€ë¥¼ í•´ì¤˜ì•¼ í•œë‹¤.
+	// ê¹Œë¨¹ì§€ ì•Šê²Œ í• ë‹¹ê³¼ í•´ì§€ ì½”ë“œë¥¼ ë§Œë“ í›„ ë‹¤ë¥¸ ì½”ë“œë¥¼ ë§Œë“¤ìž.
+	// ì¼ë°˜ì ìœ¼ë¡œ callocê³¼ mallocì„ êµ¬ë¶„í•´ì„œ ì“°ëŠ” ê²½ìš° ë³´ë‹¤ 
+	// mallocìœ¼ë¡œ ì „ì²´ í¬ê¸°ë¥¼ í• ë‹¹í•´ì„œ ì‚¬ìš©í•˜ëŠ” ê²½ìš°ê°€ ë§Žë‹¤.
 	system("pause");
 	return 0;
 }
